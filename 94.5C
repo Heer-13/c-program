@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+int  main()
+{
+int a,b,sum,mul,div,sub;
+clrscr();
+printf("enter two numbers");
+scanf("%d %d",&a,&b);
+sum=a+b;
+mul=a*b;
+sub=a-b;
+printf("Addition of these numbers is=%d\n",sum);
+printf("Subtraction of these numbers is=%d\n",sub);
+printf("Multiplication of these numbers is=%d\n",mul);
+div=a/b;
+if(b==0)
+printf("Division by zero is not possible\n")   ;
+else
+printf("Division of these numbers is=%d \n",div);
+getch();
+return 0;
+}
+
+

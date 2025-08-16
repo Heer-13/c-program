@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{float no1,no2,no3,total,avg;
+clrscr();
+printf("enter the marks of three subjects");
+scanf("%f %f %f",&no1,&no2,&no3);
+total=no1+no2+no3;
+avg=total/3;
+printf("total of marks for three subjects=%.2f and average=%.2f",total,avg);
+getch();
+return 0;
+}
+

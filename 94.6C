@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int  main()
+{
+int hour,min;
+clrscr();
+printf("enter the number of hours") ;
+scanf("%d",&hour);
+min=hour*60 ;
+printf("%d hours is equal to %d minutes",hour,min);
+getch();
+return 0;
+}

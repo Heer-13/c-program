@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int  main()
+{
+float p,r,n,I;
+clrscr();
+printf("enter principal amount,rate of interest and no of years") ;
+scanf("%f %f %f",&p,&r,&n);
+I=(p*r*n)/100;
+flushall();
+printf("the interest is %f",I);
+getch();
+return 0;
+}

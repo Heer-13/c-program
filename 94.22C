@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float Net_sales,gross,discount;
+clrscr();
+printf("Enter your gross sales");
+scanf("%f",&gross);
+discount=gross/10;
+Net_sales=gross-discount;
+flushall();
+printf("Net sales=%f",Net_sales);
+getch();
+return 0;
+}
+
+
+
+
+
+

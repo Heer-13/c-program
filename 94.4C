@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int  main()
+{
+float a,b,c;
+clrscr();
+printf("enter two numbers") ;
+scanf("%f%f",&a,&b);
+c=a/b;
+if(b==0)
+printf("division by zero is not possible");
+else
+printf("%.2f/%.2f=%.2f",a,b,c);
+getch();
+return 0;
+}

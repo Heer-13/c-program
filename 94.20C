@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a,b,h;
+clrscr();
+printf("enter the base and height of traingle");
+scanf("%d %d",&b,&h);
+a=b*h/2;
+printf("area of triangle=%d",a);
+getch();
+return 0;
+}
+

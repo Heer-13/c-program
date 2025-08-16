@@ -1,0 +1,15 @@
+
+#include<stdio.h>
+#include<conio.h>
+int  main()
+{
+float gram,kg;
+clrscr();
+printf("enter the number of kilograms") ;
+scanf("%f",&kg);
+gram=kg*1000;
+flushall();
+printf("%.2f kilograms is equal to %.2f grams",kg,gram);
+getch();
+return 0;
+}

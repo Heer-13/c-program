@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float Net_salary,gross,deduction,allowance  ;
+clrscr();
+printf("enter your gross salary");
+scanf("%f",&gross);
+allowance=gross/10;
+deduction=gross*0.03;
+Net_salary=gross+allowance-deduction;
+printf("Net Salary=%f",Net_salary);
+getch();
+return 0;
+}
+
+
+
+
+
+

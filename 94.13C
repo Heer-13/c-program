@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int  main()
+{
+float bytes,kb,mb,gb;
+clrscr();
+printf("enter the number of bytes") ;
+scanf("%f",&bytes);
+kb=bytes*1024;
+mb=1024*kb;
+gb=1024*mb;
+
+printf("%f bytes is equal to %f kilobytes,%f megabytes,%f gigabytes",bytes,kb,mb,gb);
+getch();
+return 0;
+}
