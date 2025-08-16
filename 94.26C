@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a,b,c;
+clrscr();
+printf("enter the three numbers");
+scanf("%d %d %d",&a,&b,&c);
+flushall();
+//for largest number
+if(a>b&&a>c)
+printf("%d is largest",a);
+else if(b>c&&b>a)
+printf("%d is largest",b);
+else if(c>a&&c>b)
+printf("%d is largest",c);
+
+//for smallest number
+if(a<b&&a<c)
+printf("\n%d is smallest",a);
+else if(b<c&&b<a)
+printf("\n%d is smallest",b);
+else if(c<a&&c<b)
+printf("\n%d is smallest",c);
+
+getch();
+return 0;
+}

@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{float no1,no2,no3,total,avg;
+clrscr();
+printf("enter the marks of three subjects");
+scanf("%f %f %f",&no1,&no2,&no3);
+total=no1+no2+no3;
+avg=total/3;
+if(avg>=70)
+       {printf("Total marks=%.2f and Average=%.2f",total,avg);
+	printf("\nYour grade is distinction");                           }
+else if(avg>=60)
+    {	printf("Total marks=%.2f and Average=%.2f",total,avg);
+	printf("\nYour grade is first");                                  }
+else if(avg>=50)
+     {	printf("Total marks=%.2f and Average=%.2f",total,avg);
+	printf("\nYour grade is second");                              }
+else if(avg>=35)
+      {	printf("Total marks=%.2f and Average=%.2f",total,avg);
+	printf("\nYour grade is third");                              }
+else
+      {	printf("Total marks=%.2f and Average=%.2f",total,avg);
+	printf("\nYou have failed");                                 }
+getch();
+return 0;
+}
+

@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float Net_sales,gross,discount;
+clrscr();
+printf("Enter your gross sales");
+scanf("%f",&gross);
+if(gross>20000)
+{
+discount=gross*0.15;
+Net_sales=gross-discount;
+printf("Net salary=%.2f",Net_sales);
+}
+else if(gross>10000 && gross<20000)
+{
+discount=gross/10;
+Net_sales=gross-discount;
+printf("Net salary=%.2f",Net_sales);
+}
+else
+{
+discount=gross*0.05;
+Net_sales=gross-discount;
+printf("Net salary=%.2f",Net_sales);
+}
+getch();
+return 0;
+}
+
+
+
+
+
+
